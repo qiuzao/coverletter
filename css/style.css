@@ -1,0 +1,202 @@
+body
+{
+	font-size: 10px;
+	color: #636363;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    background-color: #fcfcfc;
+
+	-webkit-font-smoothing: antialiased;
+
+	min-width: 960px;
+	position: relative;
+
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box; 
+}
+
+/*-------header-------*/
+
+.header-img
+{
+	width: 100%;
+}
+
+.header-area
+{
+	position: relative;
+	width: 100%;
+}
+
+.text-area
+{
+	position: absolute;
+	bottom: 6em;
+	left: 6em;
+	overflow: hidden;
+}
+
+.header-text
+{
+    float: left;
+    color: #f1f1f1;
+    font-size: 7.2em;
+    width: auto;
+}
+
+.line-1
+{
+	clear: both;
+}
+
+.header-icon
+{
+	background-image: url(../img/rss.png);
+	width: 36px; height: 35px;
+	margin-top: 1em;
+	float: left;
+}
+
+.header-text span
+{
+	font-size: 1.2em;
+}
+
+.header-text span span
+{
+	color: #fa6c63;
+}
+
+.persis-header
+{
+	width: 100%;
+	height: 120px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+.intro-group
+{
+	margin-left: 3em;
+	overflow: hidden;
+	width: 100%;
+}
+
+.intro-item
+{
+    overflow: hidden;
+    float: left;
+	margin: 0 3em;
+}
+
+.sm-text
+{
+	float: left;
+	font-size: 16px;
+	line-height: 72px;
+}
+
+.divider
+{
+    float: left;
+    width: 1px;
+    height: 16px;
+    background-color: #898989;
+    margin: 30px 10px 0em;
+}
+
+.lg-text
+{
+	float: left;
+	font-size: 24px;
+	line-height: 72px;
+	color: #555555;
+}
+
+.lg-text span
+{
+	color: #2fc2ef;
+}
+
+
+.social-icons
+{
+  width: 200px;
+  overflow: hidden;
+  margin-left: 5em;
+}
+
+.social-icons a
+{
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin: 0 1em;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.email
+{
+  background-image: url(../img/email.png);
+}
+
+.behance
+{
+  background-image: url(../img/behance.png);
+}
+
+.linked
+{
+  background-image: url(../img/linkedin.png);
+}
+
+.twitter
+{
+  background-image: url(../img/twitter.png);
+}
+
+
+
+/*-------media queries-------*/
+
+@media screen and (max-width: 1220px) 
+{
+	.sm-text
+	{
+		font-size: 1.2em;
+		line-height: 2em;
+	}
+
+	.divider
+	{
+		margin-top: 1.2em;
+	}
+
+	.lg-text
+	{
+		font-size: 18px;
+		line-height: 36px;
+	}
+
+	.intro-item
+	{
+		margin: 1em 3em 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
